@@ -4,6 +4,11 @@
      padding: 2rem 1rem 0;
  }
  
+ .cabezera{
+    background: radial-gradient(79.93% 251.58% at 23.18% 73.07%, #002a66 0, #0c1035 44.41%, #101034 56.43%, #141034 69.58%, #301436 100%, #411958 0);
+    color: white;
+    padding: 2rem 1rem 0;
+ }
  @media screen and (min-width: 1024px){
      .grid-container{
          display: grid;
