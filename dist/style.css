@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.6;
+}
+.s-center{
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .s-center{
+        text-align: left;
+    }
+}
+.flex {
+    display: flex;
+}

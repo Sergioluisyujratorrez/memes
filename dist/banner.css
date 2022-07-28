@@ -1,0 +1,108 @@
+.main-banner {
+    background: radial-gradient(79.93% 251.58% at 23.18% 73.07%, #0142a0 0, #0f133a 44.41%, #101034 56.43%, #141034 69.58%, #301436 100%, #411958 0);
+     color: white;
+     padding: 2rem 1rem 0;
+ }
+ 
+ @media screen and (min-width: 1024px){
+     .grid-container{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         max-width: 1200px;
+         margin: auto;
+     }
+ }
+ 
+ /*titulo y descripcion*/
+ .title{
+     font-family: Orbitron, sans-serif;
+     font-size: 1.5rem;
+     text-align: center;
+ }
+ 
+ .description{
+     font-size: 0.8rem;
+     text-align: center;
+ }
+ 
+ .line-2 {
+     color: rgb(255, 230, 0);
+ }
+ 
+ @media screen and (min-width: 1024px){
+     .title {
+         font-size: 2.5rem;
+     }
+     .description{
+         font-size: 1rem;
+     }
+ }
+ 
+ /*fin titulo y descripcion*/
+ 
+ /*inicio countdown (contador regresiva)*/
+ .countdown {
+     justify-content: center;
+     align-items: center;
+     font-size: 0.8rem;
+     margin-bottom: 1rem;
+ }
+ 
+ @media screen and (min-width: 1024px) {
+     justify-content: flex-start;
+ }
+ 
+ .countdown-item{
+     padding: 0 .75rem;
+     align-items: center;
+     position: relative;
+ }
+ 
+ .countdown-item:not(:last-of-type):before{
+     position: absolute;
+     right: 0;
+     content: "";
+     display: block;
+     width: 1px;
+     height: 60%;
+     background: white;
+     opacity: .5;
+ }
+ .countdown-number {
+     font-size: 1.75rem;
+     font-weight: bold;
+     color: aqua;
+ }
+ .countdown-letter{
+     opacity: .5;
+ }
+ /*fin countdown (contador regresiva)*/
+ 
+ /*formulario*/
+ .form-container{
+     height: 2.5rem;
+ }   
+ .form{
+     display: inline-flex;
+ }
+ .input {
+     line-height: 1.5rem;
+     width: 15rem;
+     background: none;
+     border: 1px solid rgba(255,255,255, .4);
+     padding: 0 .5rem;
+     border-radius: .25rem 0 0 .25rem;
+ }
+ .input::placeholder{
+     color: rgba(255,255,255, .5);
+ }
+ .button{
+     padding: 0 1rem;
+     border-radius: 0 .25rem .25rem 0;
+     border: none;   
+ }
+ .form-hint{
+      font-size: .7em;
+      margin: 0 0 1rem;
+ }
+ 
